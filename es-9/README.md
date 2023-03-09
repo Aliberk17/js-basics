@@ -11,10 +11,10 @@ const examsCompleted = 10;
 const firstYearCompleted = true;
 const yearsCompleted = 1;
 
-name == lastname
-age <= average
-firstYearCompleted == lastname
-yearsCompleted == firstYearCompleted
-firstYearCompleted === yearsCompleted
-examsCompleted < age
-isGraduated > yearsCompleted
+name == lastname  
+age <= average    
+firstYearCompleted == lastname  
+yearsCompleted == firstYearCompleted  
+firstYearCompleted === yearsCompleted  
+examsCompleted < age  
+isGraduated > yearsCompleted  

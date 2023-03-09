@@ -1,5 +1,5 @@
-let isDoorClosed = true;
-let isDogOutside = false;
+let isDoorClosed = false;
+let isDogOutside = true;
 
 if (isDoorClosed == true && isDogOutside == false) {
   console.log("the dor is closed and the dog is inside");

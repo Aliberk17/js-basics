@@ -2,13 +2,14 @@ let user = {
   name: "Cosimo",
   age: 30,
 };
-const newUser = user;
-function changeName(user, key, value){
-  
-  newUser[key] = value;
-}
 
-console.log(user);
-changeName(newUser, "name", "Paolo");
-console.log(newUser);
+function changeName(user, key, value){
+  let newUser = Object.assign({}, user);
+  newUser[key] = value;
+  return newUser;
+}
+changeName(user, "name", "Paolo");
+
+console.log(user.name);
+console.log(newUser.name);
 
